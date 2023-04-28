@@ -1,0 +1,168 @@
+/*
+#00568c - Blue
+#008e66 - Green
+#ffffff - White
+#cccccc - Grey
+#00568c99 - Blue Fade
+#008e6699 - Green Fade
+*/
+*{
+    margin: 0 auto;
+    border: 0;
+    padding: 0%;
+}
+
+#head{
+    text-align: center;
+}
+
+
+
+.tnav{
+    height: 200px;
+    text-align: center;
+}
+
+.tnav ul{
+    display: block;
+}
+
+.tnav ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: 10%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.tnav a{ 
+    text-decoration: none;
+    font-size: 1.75em;
+    color: black;
+}
+
+.tnav a:hover{
+    background-color: #4382D4;
+    color: #353535
+}
+
+main{
+    background-color: #cccccc;
+}
+
+#home{
+    text-align: center;
+    border: 2px solid lightblue;
+    margin: 25px;
+    background-color: #00568c99;
+}
+
+#home blockquote{
+    text-align: center;
+    font-size: 3em;
+}
+
+#home p{
+    padding: 2%;
+    font-size: 2em;
+}
+
+#programs{
+    text-align: center;
+    border: 2px solid lightgreen;
+    margin: 25px;
+    background-color: #008e6699;
+}
+
+#programs blockqoute{
+    text-align: center;
+    font-size: 3em;
+}
+
+#programs ul li{
+    list-style-type: none;
+}
+
+#programs p{
+    font-size: 2.5em;
+    padding: 2%;
+}
+
+#programs li{
+    font-size: 2em;
+}
+
+#guidance{
+    text-align: center;
+    background-color: #00568c99;
+    border: 2px solid lightblue;
+    margin: 25px;
+    
+}
+
+#guidance blockqoute{
+    text-align: center;
+    font-size: 3em;
+}
+
+#guidance p{
+    font-size: 2.5em;
+    padding: 2%;
+}
+
+#Leaders{
+    text-align: center;
+    margin: 25px;
+    border: 2px solid lightgreen;
+    background-color: #008e6699;
+}
+
+#Leaders blockqoute{
+    font-size: 3em;
+    text-align: center;
+}
+
+#Leaders p{
+    font-size: 2.5em;
+    padding: 2%
+}
+
+#contacto{
+    text-align: center;
+    border: 2px solid lightblue;
+    margin: 25px;
+    background-color: #00568c99;
+}
+
+#contacto blockqoute{
+    font-size: 3em;
+    text-align: center;
+}
+
+.bnav{
+    height: 200px;
+    text-align: center;
+}
+
+.bnav ul{
+    display: block;
+}
+
+.bnav ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: 7%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.bnav a{ 
+    text-decoration: none;
+    font-size: 1.75em;
+    color: black;
+}
+
+.bnav a:hover{
+    background-color: #4382D4;
+    color: #353535
+}
